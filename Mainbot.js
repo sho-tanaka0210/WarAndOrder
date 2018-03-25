@@ -27,9 +27,6 @@ client.on("message", (message) => {
 			message.guild.channels.get(channelId).send("連盟挑戦は本日ではありません!");
 		}
 	}
-	
-	/*message.channel.startTyping();
-	message.channel.stopTyping();*/
 });
 
-client.login("NDEzMzUyNDMyODMyMDg2MDU2.DWXm_A.JYDiw006SkcoTSpPPZaElqi_Woc");
+client.login("");

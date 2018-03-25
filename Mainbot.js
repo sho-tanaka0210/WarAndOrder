@@ -4,7 +4,7 @@ const client = new Discord.Client();
 require('date-utils');
 var now = new Date();
 
-var channelId = '';
+var channelId = 'Your Discrod’s cha nnel Id';
 
 client.on("ready", () => {
 	console.log("ログインしました。");
